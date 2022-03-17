@@ -2,7 +2,7 @@
     <div class="container">
         <h3 class=" text-center">
 
-            @if (auth()->user()->email == 'samir.gamal77@yahoo.com')
+            @if (auth()->user()->email == 'admin@admin.com')
                 <a class="btn btn-primary" href="{{ Url('delete_chat') }}">حذف المحادثة</a>
             @endif
             مورا سوفت
